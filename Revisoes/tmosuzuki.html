@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Calculadora de Revisão Suzuki - Completa</title>
+<link rel="stylesheet" href="/style/revisoes.css">
+</head>
+<body>
+   <!-- 🏠 BOTÃO HOME FIXO -->
+    <a href="/index.html" class="btn-home" title="Página Inicial">
+        🏠
+    </a>
+<div class="container">
+  <div class="header">
+    <h1>🏍️ Calculadora de Revisão Suzuki</h1>
+    <p>Selecione o veículo e a quilometragem para ver as peças e os custos da revisão</p>
+  </div>
+
+  <div class="controls">
+    <div class="select-group">
+      <select id="veiculoSelect">
+        <option value="">Selecione o Veículo</option>
+        <option value="BURGMAN_I">Burgman i</option>
+        <option value="GSX800">GSX800</option>
+        <option value="HAYABUSA">Hayabusa GSX1300R</option>
+        <option value="GSXR1000">GSX-R1000 / GSX-R1000 A</option>
+        <option value="GSX750">GSX-750</option>
+        <option value="GSXS1000">GSX-S1000A</option>
+        <option value="SV650A">SV650A</option>
+        <option value="VSTROM650">V-Strom 650 A</option>
+        <option value="VSTROM800">V-Strom 800</option>
+        <option value="VSTROM1000">V-Strom 1000</option>
+        <option value="VSTROM1050XT">V-Strom 1050XT</option>
+      </select>
+      <select id="kmSelect">
+        <option value="">Selecione KM</option>
+        <option value="1000">1.000 km</option>
+        <option value="6000">6.000 km</option>
+        <option value="12000">12.000 km</option>
+        <option value="18000">18.000 km</option>
+        <option value="24000">24.000 km</option>
+      </select>
+    </div>
+
+    <div class="resumo-grid">
+      <div class="valor-card valor-pecas">
+        <div class="valor-label">Peças</div>
+        <div class="valor-numero" id="totalPecas">R$ 0,00</div>
+        <div class="valor-sub" id="subPecas">Sem itens selecionados</div>
+      </div>
+      <div class="valor-card valor-tmo">
+        <div class="valor-label">Mão de Obra</div>
+        <div class="valor-numero" id="totalTMO">R$ 0,00</div>
+        <div class="valor-sub" id="subTMO">0,0 h</div>
+      </div>
+      <div class="valor-card valor-total">
+        <div class="valor-label">Total</div>
+        <div class="valor-numero" id="totalGeral">R$ 0,00</div>
+        <div class="valor-sub" id="subTotal">Peças + Mão de Obra</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pecas-lista" id="listaPecas">
+    <div class="no-result">👆 Selecione veículo e KM para ver as peças da revisão</div>
+  </div>
+</div>
+<script src="/script/revisaosuzuki.js"></script>
+</body>
+</html>
