@@ -22,7 +22,7 @@ const dadosRevisao = {
       { codigo: 'MT114', nome: 'Óleo do Motor', qtd: 1, valor: 70.00 },
       { codigo: '16510H05240H000', nome: 'Filtro de Óleo', qtd: 1, valor: 50.00 }
     ],
-    tmo: { 1000: 0.0, 6000: 0.0, 12000: 0.8, 18000: 2.5, 24000: 0.8 }
+    tmo: { 1000: 0.0, 6000: 0.0, 12000: 0.8, 18000: 2.5, 24000: 1.0 }
   },
   GSX800: {
     tmoHora: 350,
@@ -48,7 +48,7 @@ const dadosRevisao = {
       { codigo: 'MT114', nome: 'Óleo do Motor', qtd: 4, valor: 70.00 },
       { codigo: '16510-07J00-000', nome: 'Filtro de Óleo', qtd: 1, valor: 185.00 }
     ],
-    tmo: { 1000: 0.0, 6000: 0.0, 12000: 1, 18000: 1.5, 24000: 1 }
+    tmo: { 1000: 0.0, 6000: 0.0, 12000: 1.0, 18000: 1.5, 24000: 1.5}
   },
   HAYABUSA: {
     tmoHora: 480,
@@ -73,7 +73,7 @@ const dadosRevisao = {
       { codigo: '16510-07J00-000', nome: 'Filtro de Óleo', qtd: 1, valor: 185.00 },
       { codigo: 'MT114', nome: 'Óleo do Motor', qtd: 4, valor: 70.00 }
     ],
-    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:0.8,24000:1.5}
+    tmo: {1000:0.0, 6000:0.0, 12000:1.5, 18000:0.8, 24000:1.5}
   },
   GSXR1000: {
     tmoHora: 480,
@@ -100,7 +100,7 @@ const dadosRevisao = {
       { codigo: '09482-00458', nome: 'Velas', qtd: 4, valor: 185.00 }
       
     ],
-    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1.2,4000:1.5}
+    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1.2, 24000:1.5}
   },
   GSX750: {
     tmoHora: 350,
@@ -126,7 +126,7 @@ const dadosRevisao = {
         { codigo: '1651007J00000', nome: 'Filtro de Óleo', qtd: 1, valor: 185.00 },
         { codigo: '0948200557000', nome: 'Velas', qtd: 4, valor: 240.00 }
     ],
-    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1.2,4000:1.5}
+    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1.2, 24000:1.5}
   },
   GSXS1000: {
     tmoHora: 480,
@@ -154,7 +154,7 @@ const dadosRevisao = {
       { codigo: 'MT114', nome: 'Óleo do Motor', qtd: 4, valor: 70.00 },
       { codigo: '1651007J00000', nome: 'Filtro de Óleo', qtd: 1, valor: 185.00 }
     ],
-    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1.2,4000:1.5}
+    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1.2, 24000:1.5}
   },
   SV650A: {
     tmoHora: 350,
@@ -182,7 +182,7 @@ const dadosRevisao = {
       { codigo: 'MT114', nome: 'Óleo do Motor', qtd: 4, valor: 70.00 }
       
     ],
-    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1.2,4000:1.5}
+    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1.2, 24000:1.5}
   },
   VSTROM650: {
     tmoHora: 350,
@@ -209,7 +209,7 @@ const dadosRevisao = {
         { codigo: 'MT114', nome: 'Óleo do Motor', qtd: 4, valor: 70.00 },
         { codigo: '1651007J00000', nome: 'Filtro de Óleo', qtd: 1, valor: 185.00 }
     ],
-    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1.2,4000:1.5}
+    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1.2, 24000:1.5}
   },
   VSTROM800: {
    tmoHora: 350,
@@ -264,7 +264,7 @@ const dadosRevisao = {
       { codigo: 'MT114', nome: 'Óleo do Motor', qtd: 4, valor: 70.00 },
       { codigo: '1651007J00000', nome: 'Filtro de Óleo', qtd: 1, valor: 185.00 }
     ],
-    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1,24000:1.5}
+    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1, 24000:1.5}
   },
   VSTROM1050XT: {
     tmoHora: 480,
@@ -292,7 +292,7 @@ const dadosRevisao = {
       { codigo: 'MT114', nome: 'Óleo do Motor', qtd: 4, valor: 70.00 },
       { codigo: '1651007J00000', nome: 'Filtro de Óleo', qtd: 1, valor: 185.00 }
     ],
-    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1,24000:1.5}
+    tmo: {1000:0.0,6000:0.0,12000:1.5,18000:1, 24000:1.5}
   }
 };
 

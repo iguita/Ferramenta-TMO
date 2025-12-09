@@ -1056,7 +1056,7 @@
     const valoresPorCilindrada = {
         interna: { 150: 66, 450: 132, 800: 192, 2000: 288 }, // max cc para faixa, usar <= comparação
         particular: { 150: 110, 450: 220, 800: 320, 2000: 480 },
-        garantia: 72
+        garantia:  { 150: 72, 450: 102, 800: 102, 2000: 102 }
     };
 
     function getValorPorCilindrada(cc, tipo) {

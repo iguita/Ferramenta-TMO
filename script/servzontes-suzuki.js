@@ -1,6 +1,8 @@
     const valoresPorCilindrada = {
             interna: { 125: 66, 250: 132, 650: 192, 1000: 288 },
             particular: { 125: 110, 250: 220, 650: 320, 1000: 480 }
+            
+
         };
 
         // Mapa completo de cilindradas por modelo
@@ -4402,7 +4404,6 @@
     'SJ01R0': { tempo: 0.2, desc: 'Buzina RR' }
 },
 
-            // COMPLETE COM TODOS OS VEÍCULOS DO TB3
         };
 
        function getValorPorCilindrada(cc, tipo) {
